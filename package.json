@@ -1,0 +1,30 @@
+{
+  "name": "gitkit-example",
+  "version": "0.0.0",
+  "description": "WIP gitkit experiments and playground",
+  "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com)",
+  "contributors": [],
+  "repository": "phated/gitkit-example",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "boom": "^2.7.2",
+    "gitkitclient": "0.0.2",
+    "hapi": "^8.6.0"
+  },
+  "devDependencies": {
+    "babel": "^5.4.7"
+  },
+  "keywords": []
+}
